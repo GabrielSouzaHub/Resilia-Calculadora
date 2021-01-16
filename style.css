@@ -7,6 +7,7 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -15,9 +16,37 @@
     display: flex;
 
 }
-.resultButton {
+.resultButton, .plusOneButton, .sumButton {
     border: none;
     width: 50%;
-    height: 2em;
+    height: 3em;
+    background-color:rgb(185, 73, 29);
+    padding: 1em 2em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.resultButton:hover, .plusOneButton:hover, .sumButton:hover {
     background-color: lightsalmon;
+}
+
+.plusOneButton{
+    margin-left: 3%;
+    border-right: 1px solid white;
+}
+
+.result {
+    margin-top: 10%;
+    color: rgb(185, 73, 29);
+    font-size: 1.3em;
+}
+
+.operatorInput {
+    width: 3em;
+    padding: .5em;
+}
+
+.numberInput {
+    width: 4em;
+    padding: .5em;
 }
