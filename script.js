@@ -17,8 +17,8 @@ resultButton.textContent = 'Calculate';
 
 resultButton.addEventListener ('click', function () {
 
-    let valueOne = numberOneInput.value;
-    let valueTwo = numberTwoInput.value;
+    let valueOne = parseInt(numberOneInput.value);
+    let valueTwo = parseInt(numberTwoInput.value);
 
     let result = document.createElement('p');
     
