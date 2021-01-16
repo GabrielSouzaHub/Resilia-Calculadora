@@ -10,11 +10,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 20px;
 }
 
-.calculator .container {
-    display: flex;
-
+.calculator .container{
+    display: flex
 }
 .resultButton, .plusOneButton, .sumButton {
     border: none;
