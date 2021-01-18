@@ -11,10 +11,11 @@
     align-items: center;
     justify-content: center;
     margin-left: 20px;
+    font-size: bold;
 }
 
 .calculator .container{
-    display: flex
+    display: flex;
 }
 .resultButton, .plusOneButton, .cleanButton {
     border: none;
@@ -22,7 +23,7 @@
     height: 3em;
     background-color:rgb(185, 73, 29);
     padding: 1em 2em;
-    color: #ffffff;
+    color:rgb(241, 197, 197);
     cursor: pointer;
 }
 
@@ -31,8 +32,8 @@
 }
 
 .plusOneButton{
-    margin-left: 3%;
-    border-right: 1px solid white;
+    margin-left: 2%;
+    border-right: 3px solid rgb(194, 100, 100);
 }
 
 .result {
