@@ -16,7 +16,7 @@
 .calculator .container{
     display: flex
 }
-.resultButton, .plusOneButton, .sumButton {
+.resultButton, .plusOneButton, .cleanButton {
     border: none;
     width: 50%;
     height: 3em;
@@ -26,7 +26,7 @@
     cursor: pointer;
 }
 
-.resultButton:hover, .plusOneButton:hover, .sumButton:hover {
+.resultButton:hover, .plusOneButton:hover, .cleanButton:hover {
     background-color: lightsalmon;
 }
 
